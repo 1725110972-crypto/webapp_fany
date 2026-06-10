@@ -1,4 +1,4 @@
-$def with()
+$def with (numero_1, numero_2, resultado)
 <!DOCTYPE html>
 <html lang="es">
     <head>
@@ -7,21 +7,21 @@ $def with()
         <title>Calculadora</title>
     </head>
     <body>
-
         <h1>Calculadora</h1>
-        
         <a href="/">Index</a>
-        <form method="POST">
-            <label>Númeron 1:</label><br>
-            <input type="number" name="numero_1" id="numero_1">
 
-            <label>Numero 2:</label><br>
-            <input type="number" name="numero_2" id="numero_2">
+        <form method="POST">
+            <label>Número 1:</label><br>
+            <input type="number" name="numero_1" id="numero_1" value=$numero_1><br>
+
+            <label>Número 2:</label><br>
+            <input type="number" name="numero_2" id="numero_2" value=$numero_2><br>
 
             <label>Resultado :</label><br>
-            <input type="number" name="resultado" id="resultado">
+            <input type="number" name="resultado" id="resultado" value=resultado><br>
             
             <button name="suma" id="suma">Sumar</button>
         </form>
+        
     </body>
 </html>
