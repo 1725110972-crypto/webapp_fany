@@ -28,7 +28,7 @@ class Calculadora:
         print (f"Tipo de dato de numero_1 : {type(numero_1)}")
         print (f"Tipo de dato de numero_2 : {type(numero_2)}")
         return render.calculadora(numero_1,numero_2, resultado)
-
+    if
 if __name__ == "__main__":
     app.run()
 
