@@ -1,0 +1,30 @@
+$def with ()
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Ver Contacto</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; }
+        .contenedor { border: 1px solid #000; padding: 20px; max-width: 600px; margin: auto; }
+        .fila-formulario { margin-bottom: 15px; }
+        label { display: inline-block; width: 150px; font-weight: bold; }
+        input { padding: 5px; width: 200px; }
+        .botones { margin-top: 20px; text-align: right; }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Contactos</h1>
+        <div class="fila-formulario"><label>ID</label> <input type="text" value="8" readonly></div>
+        <div class="fila-formulario"><label>Nombre</label> <input type="text" value="Dejah" readonly></div>
+        <div class="fila-formulario"><label>Primer Apellido</label> <input type="text" value="Thoris" readonly></div>
+        <div class="fila-formulario"><label>Segundo Apellido</label> <input type="text" value="Mars" readonly></div>
+        <div class="fila-formulario"><label>Teléfono</label> <input type="text" value="111111" readonly></div>
+        <div class="fila-formulario"><label>Email</label> <input type="text" value="dejah@email.com" readonly></div>
+        <div class="botones">
+            <a href="/lista_contactos"><button type="button">Regresar</button></a>
+        </div>
+    </div>
+</body>
+</html>
